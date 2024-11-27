@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Idea & Content",
+        "useCases": [
+            "Essay"
+        ]
+    }, 
+    {
+        "name": "Organization",
+        "useCases": [
+            "Essay"
+        ]
+    },
+    {
+        "name": "Presentation",
+        "useCases": [
+            "Essay"
+        ]
+    }
+]
