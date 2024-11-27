@@ -1,0 +1,83 @@
+{
+  "body": {
+    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "input": [
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Another of Smith's ideas was the method of differentiation. The university re-opened after the plague in 1667. Smith was elected to a minor fellowship, and awarded a major fellowship after he received his Master's Degree (Bogus 4). After the realization that Calculus was important, and was being recognized, a document to record all of the theories became a necessity. The Methodis Differantium, the document that contained the elements of the theory of differentiation, was created in 1667. Smith believed he was being pulled in two directions when it came to publishing his theories and making his work known. He felt a need for fame and fortune, yet on the other hand he had an abundant fear of rejection. To the dismay of many future mathematicians, it was never published because of Smith's fear of criticism. Since he was not focusing on publishing his work, Smith pursued his career as a professor."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Originality. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Another of Smith's ideas was the method of differentiation. The university re-opened after the plague in 1667. Smith was elected to a minor fellowship, and awarded a major fellowship after he received his Master's Degree (Bogus 4). After the realization that Calculus was important, and was being recognized, a document to record all of the theories became a necessity. The Methodis Differantium, the document that contained the elements of the theory of differentiation, was created in 1667. Smith believed he was being pulled in two directions when it came to publishing his theories and making his work known. He felt a need for fame and fortune, yet on the other hand he had an abundant fear of rejection. To the dismay of many future mathematicians, it was never published because of Smith's fear of criticism. Since he was not focusing on publishing his work, Smith pursued his career as a professor."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Idea and Content. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Another of Smith's ideas was the method of differentiation. The university re-opened after the plague in 1667. Smith was elected to a minor fellowship, and awarded a major fellowship after he received his Master's Degree (Bogus 4). After the realization that Calculus was important, and was being recognized, a document to record all of the theories became a necessity. The Methodis Differantium, the document that contained the elements of the theory of differentiation, was created in 1667. Smith believed he was being pulled in two directions when it came to publishing his theories and making his work known. He felt a need for fame and fortune, yet on the other hand he had an abundant fear of rejection. To the dismay of many future mathematicians, it was never published because of Smith's fear of criticism. Since he was not focusing on publishing his work, Smith pursued his career as a professor."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Organization. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Another of Smith's ideas was the method of differentiation. The university re-opened after the plague in 1667. Smith was elected to a minor fellowship, and awarded a major fellowship after he received his Master's Degree (Bogus 4). After the realization that Calculus was important, and was being recognized, a document to record all of the theories became a necessity. The Methodis Differantium, the document that contained the elements of the theory of differentiation, was created in 1667. Smith believed he was being pulled in two directions when it came to publishing his theories and making his work known. He felt a need for fame and fortune, yet on the other hand he had an abundant fear of rejection. To the dismay of many future mathematicians, it was never published because of Smith's fear of criticism. Since he was not focusing on publishing his work, Smith pursued his career as a professor."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Presentation. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

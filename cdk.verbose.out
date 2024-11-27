@@ -1,0 +1,283 @@
+[90m[11:34:26] CDK toolkit version: 2.151.0 (build b8289e2)[39m
+[90m[11:34:26] Command line arguments: {[39m
+[90m  _: [ 'bootstrap' ],[39m
+[90m  v: 1,[39m
+[90m  verbose: 1,[39m
+[90m  lookups: true,[39m
+[90m  'ignore-errors': false,[39m
+[90m  ignoreErrors: false,[39m
+[90m  json: false,[39m
+[90m  j: false,[39m
+[90m  debug: false,[39m
+[90m  ec2creds: undefined,[39m
+[90m  i: undefined,[39m
+[90m  'version-reporting': undefined,[39m
+[90m  versionReporting: undefined,[39m
+[90m  'path-metadata': undefined,[39m
+[90m  pathMetadata: undefined,[39m
+[90m  'asset-metadata': undefined,[39m
+[90m  assetMetadata: undefined,[39m
+[90m  'role-arn': undefined,[39m
+[90m  r: undefined,[39m
+[90m  roleArn: undefined,[39m
+[90m  staging: true,[39m
+[90m  'no-color': false,[39m
+[90m  noColor: false,[39m
+[90m  ci: false,[39m
+[90m  'bootstrap-bucket-name': undefined,[39m
+[90m  b: undefined,[39m
+[90m  'toolkit-bucket-name': undefined,[39m
+[90m  toolkitBucketName: undefined,[39m
+[90m  bootstrapBucketName: undefined,[39m
+[90m  'bootstrap-kms-key-id': undefined,[39m
+[90m  bootstrapKmsKeyId: undefined,[39m
+[90m  'example-permissions-boundary': undefined,[39m
+[90m  epb: undefined,[39m
+[90m  examplePermissionsBoundary: undefined,[39m
+[90m  'custom-permissions-boundary': undefined,[39m
+[90m  cpb: undefined,[39m
+[90m  customPermissionsBoundary: undefined,[39m
+[90m  'bootstrap-customer-key': undefined,[39m
+[90m  bootstrapCustomerKey: undefined,[39m
+[90m  qualifier: undefined,[39m
+[90m  'public-access-block-configuration': undefined,[39m
+[90m  publicAccessBlockConfiguration: undefined,[39m
+[90m  tags: [],[39m
+[90m  t: [],[39m
+[90m  execute: true,[39m
+[90m  trust: [],[39m
+[90m  'trust-for-lookup': [],[39m
+[90m  trustForLookup: [],[39m
+[90m  'cloudformation-execution-policies': [],[39m
+[90m  cloudformationExecutionPolicies: [],[39m
+[90m  force: false,[39m
+[90m  f: false,[39m
+[90m  'termination-protection': undefined,[39m
+[90m  terminationProtection: undefined,[39m
+[90m  'show-template': false,[39m
+[90m  showTemplate: false,[39m
+[90m  'previous-parameters': true,[39m
+[90m  previousParameters: true,[39m
+[90m  '$0': '/opt/homebrew/bin/cdk'[39m
+[90m}[39m
+[90m[11:34:26] cdk.json: {[39m
+[90m  "app": "python3 app.py",[39m
+[90m  "watch": {[39m
+[90m    "include": [[39m
+[90m      "**"[39m
+[90m    ],[39m
+[90m    "exclude": [[39m
+[90m      "README.md",[39m
+[90m      "cdk*.json",[39m
+[90m      "requirements*.txt",[39m
+[90m      "source.bat",[39m
+[90m      "**/__init__.py",[39m
+[90m      "**/__pycache__",[39m
+[90m      "tests"[39m
+[90m    ][39m
+[90m  },[39m
+[90m  "context": {[39m
+[90m    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,[39m
+[90m    "@aws-cdk/core:checkSecretUsage": true,[39m
+[90m    "@aws-cdk/core:target-partitions": [[39m
+[90m      "aws",[39m
+[90m      "aws-cn"[39m
+[90m    ],[39m
+[90m    "@aws-cdk-containers/ecs-service-extensions:enableDefaultLogDriver": true,[39m
+[90m    "@aws-cdk/aws-ec2:uniqueImdsv2TemplateName": true,[39m
+[90m    "@aws-cdk/aws-ecs:arnFormatIncludesClusterName": true,[39m
+[90m    "@aws-cdk/aws-iam:minimizePolicies": true,[39m
+[90m    "@aws-cdk/core:validateSnapshotRemovalPolicy": true,[39m
+[90m    "@aws-cdk/aws-codepipeline:crossAccountKeyAliasStackSafeResourceName": true,[39m
+[90m    "@aws-cdk/aws-s3:createDefaultLoggingPolicy": true,[39m
+[90m    "@aws-cdk/aws-sns-subscriptions:restrictSqsDescryption": true,[39m
+[90m    "@aws-cdk/aws-apigateway:disableCloudWatchRole": true,[39m
+[90m    "@aws-cdk/core:enablePartitionLiterals": true,[39m
+[90m    "@aws-cdk/aws-events:eventsTargetQueueSameAccount": true,[39m
+[90m    "@aws-cdk/aws-iam:standardizedServicePrincipals": true,[39m
+[90m    "@aws-cdk/aws-ecs:disableExplicitDeploymentControllerForCircuitBreaker": true,[39m
+[90m    "@aws-cdk/aws-iam:importedRoleStackSafeDefaultPolicyName": true,[39m
+[90m    "@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy": true,[39m
+[90m    "@aws-cdk/aws-route53-patters:useCertificate": true,[39m
+[90m    "@aws-cdk/customresources:installLatestAwsSdkDefault": false,[39m
+[90m    "@aws-cdk/aws-rds:databaseProxyUniqueResourceName": true,[39m
+[90m    "@aws-cdk/aws-codedeploy:removeAlarmsFromDeploymentGroup": true,[39m
+[90m    "@aws-cdk/aws-apigateway:authorizerChangeDeploymentLogicalId": true,[39m
+[90m    "@aws-cdk/aws-ec2:launchTemplateDefaultUserData": true,[39m
+[90m    "@aws-cdk/aws-secretsmanager:useAttachedSecretResourcePolicyForSecretTargetAttachments": true,[39m
+[90m    "@aws-cdk/aws-redshift:columnId": true,[39m
+[90m    "@aws-cdk/aws-stepfunctions-tasks:enableEmrServicePolicyV2": true,[39m
+[90m    "@aws-cdk/aws-ec2:restrictDefaultSecurityGroup": true,[39m
+[90m    "@aws-cdk/aws-apigateway:requestValidatorUniqueId": true,[39m
+[90m    "@aws-cdk/aws-kms:aliasNameRef": true,[39m
+[90m    "@aws-cdk/aws-autoscaling:generateLaunchTemplateInsteadOfLaunchConfig": true,[39m
+[90m    "@aws-cdk/core:includePrefixInUniqueNameGeneration": true,[39m
+[90m    "@aws-cdk/aws-efs:denyAnonymousAccess": true,[39m
+[90m    "@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby": true,[39m
+[90m    "@aws-cdk/aws-lambda-nodejs:useLatestRuntimeVersion": true,[39m
+[90m    "@aws-cdk/aws-efs:mountTargetOrderInsensitiveLogicalId": true,[39m
+[90m    "@aws-cdk/aws-rds:auroraClusterChangeScopeOfInstanceParameterGroupWithEachParameters": true,[39m
+[90m    "@aws-cdk/aws-appsync:useArnForSourceApiAssociationIdentifier": true,[39m
+[90m    "@aws-cdk/aws-rds:preventRenderingDeprecatedCredentials": true,[39m
+[90m    "@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource": true,[39m
+[90m    "@aws-cdk/aws-cloudwatch-actions:changeLambdaPermissionLogicalIdForLambdaAction": true,[39m
+[90m    "@aws-cdk/aws-codepipeline:crossAccountKeysDefaultValueToFalse": true,[39m
+[90m    "@aws-cdk/aws-codepipeline:defaultPipelineTypeToV2": true,[39m
+[90m    "@aws-cdk/aws-kms:reduceCrossAccountRegionPolicyScope": true,[39m
+[90m    "@aws-cdk/aws-eks:nodegroupNameAttribute": true,[39m
+[90m    "@aws-cdk/aws-ec2:ebsDefaultGp3Volume": true,[39m
+[90m    "@aws-cdk/aws-ecs:removeDefaultDeploymentAlarm": true,[39m
+[90m    "@aws-cdk/custom-resources:logApiResponseDataPropertyTrueDefault": false[39m
+[90m  }[39m
+[90m}[39m
+[90m[11:34:26] merged settings: {[39m
+[90m  versionReporting: true,[39m
+[90m  assetMetadata: true,[39m
+[90m  pathMetadata: true,[39m
+[90m  output: 'cdk.out',[39m
+[90m  app: 'python3 app.py',[39m
+[90m  watch: {[39m
+[90m    include: [ '**' ],[39m
+[90m    exclude: [[39m
+[90m      'README.md',[39m
+[90m      'cdk*.json',[39m
+[90m      'requirements*.txt',[39m
+[90m      'source.bat',[39m
+[90m      '**/__init__.py',[39m
+[90m      '**/__pycache__',[39m
+[90m      'tests'[39m
+[90m    ][39m
+[90m  },[39m
+[90m  context: {[39m
+[90m    '@aws-cdk/aws-lambda:recognizeLayerVersion': true,[39m
+[90m    '@aws-cdk/core:checkSecretUsage': true,[39m
+[90m    '@aws-cdk/core:target-partitions': [ 'aws', 'aws-cn' ],[39m
+[90m    '@aws-cdk-containers/ecs-service-extensions:enableDefaultLogDriver': true,[39m
+[90m    '@aws-cdk/aws-ec2:uniqueImdsv2TemplateName': true,[39m
+[90m    '@aws-cdk/aws-ecs:arnFormatIncludesClusterName': true,[39m
+[90m    '@aws-cdk/aws-iam:minimizePolicies': true,[39m
+[90m    '@aws-cdk/core:validateSnapshotRemovalPolicy': true,[39m
+[90m    '@aws-cdk/aws-codepipeline:crossAccountKeyAliasStackSafeResourceName': true,[39m
+[90m    '@aws-cdk/aws-s3:createDefaultLoggingPolicy': true,[39m
+[90m    '@aws-cdk/aws-sns-subscriptions:restrictSqsDescryption': true,[39m
+[90m    '@aws-cdk/aws-apigateway:disableCloudWatchRole': true,[39m
+[90m    '@aws-cdk/core:enablePartitionLiterals': true,[39m
+[90m    '@aws-cdk/aws-events:eventsTargetQueueSameAccount': true,[39m
+[90m    '@aws-cdk/aws-iam:standardizedServicePrincipals': true,[39m
+[90m    '@aws-cdk/aws-ecs:disableExplicitDeploymentControllerForCircuitBreaker': true,[39m
+[90m    '@aws-cdk/aws-iam:importedRoleStackSafeDefaultPolicyName': true,[39m
+[90m    '@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy': true,[39m
+[90m    '@aws-cdk/aws-route53-patters:useCertificate': true,[39m
+[90m    '@aws-cdk/customresources:installLatestAwsSdkDefault': false,[39m
+[90m    '@aws-cdk/aws-rds:databaseProxyUniqueResourceName': true,[39m
+[90m    '@aws-cdk/aws-codedeploy:removeAlarmsFromDeploymentGroup': true,[39m
+[90m    '@aws-cdk/aws-apigateway:authorizerChangeDeploymentLogicalId': true,[39m
+[90m    '@aws-cdk/aws-ec2:launchTemplateDefaultUserData': true,[39m
+[90m    '@aws-cdk/aws-secretsmanager:useAttachedSecretResourcePolicyForSecretTargetAttachments': true,[39m
+[90m    '@aws-cdk/aws-redshift:columnId': true,[39m
+[90m    '@aws-cdk/aws-stepfunctions-tasks:enableEmrServicePolicyV2': true,[39m
+[90m    '@aws-cdk/aws-ec2:restrictDefaultSecurityGroup': true,[39m
+[90m    '@aws-cdk/aws-apigateway:requestValidatorUniqueId': true,[39m
+[90m    '@aws-cdk/aws-kms:aliasNameRef': true,[39m
+[90m    '@aws-cdk/aws-autoscaling:generateLaunchTemplateInsteadOfLaunchConfig': true,[39m
+[90m    '@aws-cdk/core:includePrefixInUniqueNameGeneration': true,[39m
+[90m    '@aws-cdk/aws-efs:denyAnonymousAccess': true,[39m
+[90m    '@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby': true,[39m
+[90m    '@aws-cdk/aws-lambda-nodejs:useLatestRuntimeVersion': true,[39m
+[90m    '@aws-cdk/aws-efs:mountTargetOrderInsensitiveLogicalId': true,[39m
+[90m    '@aws-cdk/aws-rds:auroraClusterChangeScopeOfInstanceParameterGroupWithEachParameters': true,[39m
+[90m    '@aws-cdk/aws-appsync:useArnForSourceApiAssociationIdentifier': true,[39m
+[90m    '@aws-cdk/aws-rds:preventRenderingDeprecatedCredentials': true,[39m
+[90m    '@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource': true,[39m
+[90m    '@aws-cdk/aws-cloudwatch-actions:changeLambdaPermissionLogicalIdForLambdaAction': true,[39m
+[90m    '@aws-cdk/aws-codepipeline:crossAccountKeysDefaultValueToFalse': true,[39m
+[90m    '@aws-cdk/aws-codepipeline:defaultPipelineTypeToV2': true,[39m
+[90m    '@aws-cdk/aws-kms:reduceCrossAccountRegionPolicyScope': true,[39m
+[90m    '@aws-cdk/aws-eks:nodegroupNameAttribute': true,[39m
+[90m    '@aws-cdk/aws-ec2:ebsDefaultGp3Volume': true,[39m
+[90m    '@aws-cdk/aws-ecs:removeDefaultDeploymentAlarm': true,[39m
+[90m    '@aws-cdk/custom-resources:logApiResponseDataPropertyTrueDefault': false[39m
+[90m  },[39m
+[90m  debug: false,[39m
+[90m  toolkitBucket: {},[39m
+[90m  staging: true,[39m
+[90m  bundlingStacks: [],[39m
+[90m  lookups: true[39m
+[90m}[39m
+[90m[11:34:26] Determining if we're on an EC2 instance.[39m
+[90m[11:34:26] Does not look like an EC2 instance.[39m
+[90m[11:34:26] Toolkit stack: [1mCDKToolkit[22m[39m
+[90m[11:34:26] Setting "CDK_DEFAULT_REGION" environment variable to us-east-1[39m
+[90m[11:34:26] Resolving default credentials[39m
+[90m[11:34:26] Could not refresh notices: Error: unable to get local issuer certificate[39m
+[90m[11:34:27] Looking up default account ID from STS[39m
+[90m[11:34:28] Unable to determine the default AWS account (NetworkingError): unable to get local issuer certificate[39m
+[90m[11:34:28] context: {[39m
+[90m  '@aws-cdk/aws-lambda:recognizeLayerVersion': true,[39m
+[90m  '@aws-cdk/core:checkSecretUsage': true,[39m
+[90m  '@aws-cdk/core:target-partitions': [ 'aws', 'aws-cn' ],[39m
+[90m  '@aws-cdk-containers/ecs-service-extensions:enableDefaultLogDriver': true,[39m
+[90m  '@aws-cdk/aws-ec2:uniqueImdsv2TemplateName': true,[39m
+[90m  '@aws-cdk/aws-ecs:arnFormatIncludesClusterName': true,[39m
+[90m  '@aws-cdk/aws-iam:minimizePolicies': true,[39m
+[90m  '@aws-cdk/core:validateSnapshotRemovalPolicy': true,[39m
+[90m  '@aws-cdk/aws-codepipeline:crossAccountKeyAliasStackSafeResourceName': true,[39m
+[90m  '@aws-cdk/aws-s3:createDefaultLoggingPolicy': true,[39m
+[90m  '@aws-cdk/aws-sns-subscriptions:restrictSqsDescryption': true,[39m
+[90m  '@aws-cdk/aws-apigateway:disableCloudWatchRole': true,[39m
+[90m  '@aws-cdk/core:enablePartitionLiterals': true,[39m
+[90m  '@aws-cdk/aws-events:eventsTargetQueueSameAccount': true,[39m
+[90m  '@aws-cdk/aws-iam:standardizedServicePrincipals': true,[39m
+[90m  '@aws-cdk/aws-ecs:disableExplicitDeploymentControllerForCircuitBreaker': true,[39m
+[90m  '@aws-cdk/aws-iam:importedRoleStackSafeDefaultPolicyName': true,[39m
+[90m  '@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy': true,[39m
+[90m  '@aws-cdk/aws-route53-patters:useCertificate': true,[39m
+[90m  '@aws-cdk/customresources:installLatestAwsSdkDefault': false,[39m
+[90m  '@aws-cdk/aws-rds:databaseProxyUniqueResourceName': true,[39m
+[90m  '@aws-cdk/aws-codedeploy:removeAlarmsFromDeploymentGroup': true,[39m
+[90m  '@aws-cdk/aws-apigateway:authorizerChangeDeploymentLogicalId': true,[39m
+[90m  '@aws-cdk/aws-ec2:launchTemplateDefaultUserData': true,[39m
+[90m  '@aws-cdk/aws-secretsmanager:useAttachedSecretResourcePolicyForSecretTargetAttachments': true,[39m
+[90m  '@aws-cdk/aws-redshift:columnId': true,[39m
+[90m  '@aws-cdk/aws-stepfunctions-tasks:enableEmrServicePolicyV2': true,[39m
+[90m  '@aws-cdk/aws-ec2:restrictDefaultSecurityGroup': true,[39m
+[90m  '@aws-cdk/aws-apigateway:requestValidatorUniqueId': true,[39m
+[90m  '@aws-cdk/aws-kms:aliasNameRef': true,[39m
+[90m  '@aws-cdk/aws-autoscaling:generateLaunchTemplateInsteadOfLaunchConfig': true,[39m
+[90m  '@aws-cdk/core:includePrefixInUniqueNameGeneration': true,[39m
+[90m  '@aws-cdk/aws-efs:denyAnonymousAccess': true,[39m
+[90m  '@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby': true,[39m
+[90m  '@aws-cdk/aws-lambda-nodejs:useLatestRuntimeVersion': true,[39m
+[90m  '@aws-cdk/aws-efs:mountTargetOrderInsensitiveLogicalId': true,[39m
+[90m  '@aws-cdk/aws-rds:auroraClusterChangeScopeOfInstanceParameterGroupWithEachParameters': true,[39m
+[90m  '@aws-cdk/aws-appsync:useArnForSourceApiAssociationIdentifier': true,[39m
+[90m  '@aws-cdk/aws-rds:preventRenderingDeprecatedCredentials': true,[39m
+[90m  '@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource': true,[39m
+[90m  '@aws-cdk/aws-cloudwatch-actions:changeLambdaPermissionLogicalIdForLambdaAction': true,[39m
+[90m  '@aws-cdk/aws-codepipeline:crossAccountKeysDefaultValueToFalse': true,[39m
+[90m  '@aws-cdk/aws-codepipeline:defaultPipelineTypeToV2': true,[39m
+[90m  '@aws-cdk/aws-kms:reduceCrossAccountRegionPolicyScope': true,[39m
+[90m  '@aws-cdk/aws-eks:nodegroupNameAttribute': true,[39m
+[90m  '@aws-cdk/aws-ec2:ebsDefaultGp3Volume': true,[39m
+[90m  '@aws-cdk/aws-ecs:removeDefaultDeploymentAlarm': true,[39m
+[90m  '@aws-cdk/custom-resources:logApiResponseDataPropertyTrueDefault': false,[39m
+[90m  'aws:cdk:enable-path-metadata': true,[39m
+[90m  'aws:cdk:enable-asset-metadata': true,[39m
+[90m  'aws:cdk:version-reporting': true,[39m
+[90m  'aws:cdk:bundling-stacks': [][39m
+[90m}[39m
+[90m[11:34:28] outdir: cdk.out[39m
+[90m[11:34:28] env: {[39m
+[90m  CDK_DEFAULT_REGION: 'us-east-1',[39m
+[90m  CDK_OUTDIR: 'cdk.out',[39m
+[90m  CDK_CLI_ASM_VERSION: '36.0.0',[39m
+[90m  CDK_CLI_VERSION: '2.151.0'[39m
+[90m}[39m
+[90m[11:34:31] Reading cached notices from /Users/sdejong/.cdk/cache/notices.json[39m
+
+[31mUnable to resolve AWS account to use. It must be either configured when you define your CDK Stack, or through the environment[39m
+[90m[11:34:31] Error: Unable to resolve AWS account to use. It must be either configured when you define your CDK Stack, or through the environment[39m
+[90m    at SdkProvider.resolveEnvironment (/opt/homebrew/lib/node_modules/aws-cdk/lib/index.js:407:661180)[39m
+[90m    at async globEnvironmentsFromStacks (/opt/homebrew/lib/node_modules/aws-cdk/lib/index.js:449:190327)[39m
+[90m    at async CdkToolkit.bootstrap (/opt/homebrew/lib/node_modules/aws-cdk/lib/index.js:451:2071)[39m
+[90m    at async exec4 (/opt/homebrew/lib/node_modules/aws-cdk/lib/index.js:504:54331)[39m

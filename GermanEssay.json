@@ -1,0 +1,64 @@
+{
+  "body": {
+    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "input": [
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wir sind eine ganz normale Familie. Ich wohne zusammen mit meinen Eltern, meiner kleinen Schwester Lisa und unserer Katze Mick. Meine Großeltern wohnen im gleichen Dorf wie wir. Oma Francis arbeitet noch. Sie ist Krankenschwester. Die Anderen sind schon in Rente. Oma Lydia nimmt sich viel Zeit für mich und geht häufig mit mir Kleider oder Schuhe kaufen. Leider will meine kleine Schwester dann auch immer mit. Mein Vater arbeitet bei einer Bank und fährt am Wochenende gern mit seinem Motorrad. Das findet meine Mutter nicht so gut, da sie meint, dass Motorradfahren so gefährlich ist. Sie sagt, dass ich und meine Schwester auf keinen Fall mitfahren dürfen. Mein Vater versteht das nicht, aber er will sich auch nicht streiten. Nächstes Jahr wollen wir in ein größeres Haus ziehen, weil meine Eltern noch ein Baby bekommen. Ich hoffe, dass wir nicht zu weit weg ziehen, da alle meine Freunde hier in der Nähe wohnen. Meine Tante Clara, die Schwester meiner Mutter, wohnt sogar genau gegenüber. Meine Cousine Barbara kommt deshalb häufig zu Besuch."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Idea and Content. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wir sind eine ganz normale Familie. Ich wohne zusammen mit meinen Eltern, meiner kleinen Schwester Lisa und unserer Katze Mick. Meine Großeltern wohnen im gleichen Dorf wie wir. Oma Francis arbeitet noch. Sie ist Krankenschwester. Die Anderen sind schon in Rente. Oma Lydia nimmt sich viel Zeit für mich und geht häufig mit mir Kleider oder Schuhe kaufen. Leider will meine kleine Schwester dann auch immer mit. Mein Vater arbeitet bei einer Bank und fährt am Wochenende gern mit seinem Motorrad. Das findet meine Mutter nicht so gut, da sie meint, dass Motorradfahren so gefährlich ist. Sie sagt, dass ich und meine Schwester auf keinen Fall mitfahren dürfen. Mein Vater versteht das nicht, aber er will sich auch nicht streiten. Nächstes Jahr wollen wir in ein größeres Haus ziehen, weil meine Eltern noch ein Baby bekommen. Ich hoffe, dass wir nicht zu weit weg ziehen, da alle meine Freunde hier in der Nähe wohnen. Meine Tante Clara, die Schwester meiner Mutter, wohnt sogar genau gegenüber. Meine Cousine Barbara kommt deshalb häufig zu Besuch."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Organization. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 500,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wir sind eine ganz normale Familie. Ich wohne zusammen mit meinen Eltern, meiner kleinen Schwester Lisa und unserer Katze Mick. Meine Großeltern wohnen im gleichen Dorf wie wir. Oma Francis arbeitet noch. Sie ist Krankenschwester. Die Anderen sind schon in Rente. Oma Lydia nimmt sich viel Zeit für mich und geht häufig mit mir Kleider oder Schuhe kaufen. Leider will meine kleine Schwester dann auch immer mit. Mein Vater arbeitet bei einer Bank und fährt am Wochenende gern mit seinem Motorrad. Das findet meine Mutter nicht so gut, da sie meint, dass Motorradfahren so gefährlich ist. Sie sagt, dass ich und meine Schwester auf keinen Fall mitfahren dürfen. Mein Vater versteht das nicht, aber er will sich auch nicht streiten. Nächstes Jahr wollen wir in ein größeres Haus ziehen, weil meine Eltern noch ein Baby bekommen. Ich hoffe, dass wir nicht zu weit weg ziehen, da alle meine Freunde hier in der Nähe wohnen. Meine Tante Clara, die Schwester meiner Mutter, wohnt sogar genau gegenüber. Meine Cousine Barbara kommt deshalb häufig zu Besuch."
+              },
+              {
+                "type": "text",
+                "text": "Using limited subjective language, evaluate the given essay using the criterion Presentation. Provide the criterion, a single number to represent a score from 1 to 10, and your analysis in English, colon delimited and unlabeled."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
